@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	background-color: rgb(26, 26, 26);
+}
+
+#title {
+	position: absolute;
+	width: 100%;
+	padding-top: 23px;
+	letter-spacing: 0.2em;
+	font-family: "Press Start 2P", cursive;
+	font-size: 2.3em;
+	text-align: center;
+}
+
+#title i {
+	font-variant: small-caps;
+	background-image: linear-gradient(0deg, #ebebeb, #ffffff);
+	background-size: 100%;
+	background-repeat: repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding-bottom: 14px;
+	text-align: center;
+	font-family: "Press Start 2P", cursive;
+	font-size: 0.6em;
+}
+
+.footerItem {
+	color: rgb(140, 140, 140);
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.footerItem:hover {
+	color: rgb(171, 171, 171);
+}
+
+#gamediv {
+	position: absolute;
+	top: 80px;
+	bottom: 40px;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+canvas {
+	position: relative;
+	background: black;
+}
